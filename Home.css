@@ -1,13 +1,15 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .bg-img {
     /* The image used */
-    background-image: url("Home.jpg");
-  
-    min-height: 800px;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("Home2.jpg");
+    background-size: 110%;
+    min-height: 1000px;
+    min-width: 200px;
+    margin: 0;
   
     /* Needed to position the navbar */
     position: relative;
@@ -23,7 +25,7 @@
   .text{
     position: relative;
     text-align: center;
-    color: azure;
+    color: black;
     font-size: 35px;
   }
   
@@ -32,13 +34,13 @@
   /* Navbar links */
   .topnav a {
     float: left;
-    color: #ffffff;
+    color: 
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 25px;
     position: relative;
-    left: 850px;
+    left: 540px;
     top: -460px;
   }
   
