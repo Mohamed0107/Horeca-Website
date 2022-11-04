@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wall Stock</title>
+    <link rel="stylesheet" href="Contact.css">
+
+     <!--Buttom-->
+    <style>
+      button {
+        display: inline-block;
+        background-color: black;
+        /* border-radius: 10px; */
+        border: 4px double black;
+        color: #eeeeee;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        align-items: center;
+        transition: 0.5s;
+      }
+      button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      button:hover {
+        background-color: black;
+      }
+      button:hover span {
+        padding-right: 25px;
+      }
+      button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+    </style>
+<!-- Buttom -->
+</head>
+
+<!-- buttom -->
+<body>
+  <script src='agenda.js'></script>
+    
+<!-- Navbar -->
+    <div class="topnav">
+        <a href="Home.html">Home</a>
+        <a href="Restaurant.html">Restaurant</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Resevations">Resevations</a>
+        <a href="Contact.html">Contact</a>
+    </div>
+<!-- Navbar -->
+
+<div class="buttom">
+<h2>MAKE A RESERVATIONS</h2>
+<button>
+  <a href="Table.html"><span>Reserveer </span></a>
+</button>
+</div>
+
+<div class="text2">
+    <p>Reservations for groups are also possible.
+        <br>Please call +31 43852 88 63 or fill in the contact form below to have an arrangement.</p>
+</div>
+<!-- Buttom -->
+
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      
+          <label for="EM">Email</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter your Email..">
+           
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:140px"></textarea>`
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+      
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+font-size: 20px;
+letter-spacing: .43px;
+font-style: normal;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+  }
+  
+  
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  img {
+    position: absolute;
+    left: 900px;
+    bottom: 350px;
+    height: 400px;
+    top: 200px;
+
+  }
+  h1 {
+    font-weight: lighter;
+    position: relative;
+    left: 900px;
+  }
+  h2 {
+    font-weight: lighter;
+    position: relative;
+    left: 100px;
+  }
