@@ -23,7 +23,7 @@ input[type=text], select, textarea {
 .buttom{
     position: relative;
     top: 100px;
-    left: 100px;
+    left: 250px;
 }
 
 span{
@@ -32,8 +32,9 @@ span{
 .text2{
     position: relative;
     top: 100px;
-    right: -440px;
-    
+
+    text-decoration: underline;
+    text-align: center;
     
 }
 
@@ -62,12 +63,16 @@ span{
     text-decoration: none;
     font-size: 20px;
     position: relative;
-    left: 900px;
+    left: 600px;
   }
   
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+  }
+  h2 {
+    position: relative;
+    right: 30px;
   }
 
   
