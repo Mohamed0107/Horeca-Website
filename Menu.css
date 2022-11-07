@@ -35,4 +35,50 @@
     background-color: #ddd;
     color: black;
   }
-  
+  #foto1 img{
+    width: 505px;
+    height: 700px;
+    TOP:100px;
+    position: absolute;
+   left: 0px;
+  }
+ #foto2 img{
+  width: 505x;
+  height: 700px;
+  TOP:100px;
+  position: absolute;
+  left: 505px;
+}
+#foto3 img{
+  width: 505x;
+  height: 700px;
+  TOP:100px;
+  position: absolute;
+  left: 985px;
+}
+#foto4 img{
+  width: 505px;
+  height: 700px;
+  TOP:800px;
+  position: absolute;
+ left: 0px;
+}
+#foto5 img{
+  width: 505px;
+  height: 700px;
+  TOP:800px;
+  position: absolute;
+ left: 505px;
+}
+#foto6 img{
+  width: 505px;
+  height: 700px;
+  TOP:800px;
+  position: absolute;
+ left: 1005px;
+}
+
+
+body{
+  background-color: rgb(55, 55, 55);
+}

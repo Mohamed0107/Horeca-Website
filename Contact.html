@@ -95,11 +95,25 @@
       
           <label for="subject">Subject</label>
           <textarea id="subject" name="subject" placeholder="Write something.." style="height:140px"></textarea>`
-          <input type="submit" value="Submit">
-      
+          <button type="submit">Send</button>
         </form>
       </div>
-
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+      <script>
+        function SendEmail(){
+          Email.Send ({
+            host: "smtp.skype.com",
+            userneme:"username",
+            password:"password",
+            to:"",
+            from:"",
+            subject:"",
+            body:"",
+          }).then(
+            message => alert(message)
+          );
+        }
+      </script>
       
 </body>
 </html>

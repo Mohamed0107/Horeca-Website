@@ -13,7 +13,7 @@ input[type=text], select, textarea {
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: black;
-    color: #ccc;
+    color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -32,7 +32,6 @@ span{
 .text2{
     position: relative;
     top: 100px;
-
     text-decoration: underline;
     text-align: center;
     
