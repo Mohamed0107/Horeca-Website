@@ -40,47 +40,77 @@
   #foto1 img{
     width: 505px;
     height: 700px;
-    TOP:100px;
+    TOP:250px;
     position: absolute;
-   left: 0px;
+    left: 60px;
   }
  #foto2 img{
   width: 505x;
   height: 700px;
-  TOP:100px;
+  TOP:250px;
   position: absolute;
-  left: 505px;
+  left: 565px;
 }
 #foto3 img{
   width: 505x;
   height: 700px;
-  TOP:100px;
+  TOP:250px;
   position: absolute;
-  left: 985px;
+  left: 1045px;
 }
 #foto4 img{
   width: 505px;
   height: 700px;
-  TOP:800px;
+  TOP:950px;
   position: absolute;
- left: 0px;
+  left: 60px;
+
 }
 #foto5 img{
   width: 505px;
   height: 700px;
-  TOP:800px;
+  TOP:950px;
   position: absolute;
- left: 505px;
+ left: 565px;
 }
 #foto6 img{
   width: 505px;
   height: 700px;
-  TOP:800px;
+  TOP: 950px;
   position: absolute;
- left: 1005px;
+ left: 1065px;
 }
 
 
 body{
   background-color: rgb(55, 55, 55);
+}
+h1 {
+  position: relative;
+  top: -700px;
+  left: 750px;
+  font-weight: lighter;
+  color: white;
+}
+h2 {
+  position: relative;
+  top: 900px;
+  left: 750px;
+  font-weight: lighter;
+  color: white;
+  font-size: 30px;
+}
+#foto7 {
+  width: 505px;
+  height: 700px;
+  position: absolute;
+  top: 1900px;
+  left: 50px;
+}
+#foto8 {
+  width: 505px;
+  height: 700px;
+  position: absolute;
+  top: 1900px;
+  left: 900px;
 }
