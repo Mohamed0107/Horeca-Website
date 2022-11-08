@@ -23,7 +23,7 @@
   /* Navbar links */
   .topnav a {
     float: left;
-    color: #060000;
+    color: #060101;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -83,21 +83,21 @@
 
 
 body{
-  background-color: rgb(55, 55, 55);
+  background-color: rgb(248, 244, 244);
 }
 h1 {
   position: relative;
   top: -700px;
   left: 750px;
   font-weight: lighter;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 h2 {
   position: relative;
   top: 900px;
   left: 750px;
   font-weight: lighter;
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 30px;
 }
 #foto7 {
